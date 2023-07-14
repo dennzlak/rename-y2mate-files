@@ -16,8 +16,8 @@ const testFolder = 'YOUR MUSIC FOLDER GOES HERE';
 <code>
 fs.readdir(testFolder, (err, files) => {
   files.forEach(file => {
-    if (file.startsWith('</code>y2mate.is - ' (you can change this)<code>) {
-        var newname = file.replace('</code>y2mate.is - ' (you can change this)<code> , '')
+    if (file.startsWith('</code>y2mate.is - '<code>) {
+        var newname = file.replace('</code>y2mate.is - '<code> , '')
         var fileLocation = testFolder +'/'+file
         var newestName = testFolder + '/' + newname
         fs.renameSync(fileLocation, newestName)
