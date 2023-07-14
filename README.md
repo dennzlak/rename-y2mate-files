@@ -13,6 +13,7 @@ const testFolder = 'YOUR MUSIC FOLDER GOES HERE';
 - replace `'YOUR MUSIC FOLDER GOES HERE'` with your music folder (eg. `'C:/Users/[USER]/Music'` (with quotation marks)
 - make sure you flip the backslashes to forwardslashes `"C:/Users/[USER]/Music"`
 
+you can change the 'y2mate.is# to whatever website you were on
 <code>
 fs.readdir(testFolder, (err, files) => {
   files.forEach(file => {
@@ -26,3 +27,5 @@ fs.readdir(testFolder, (err, files) => {
   });
 });
 </code>
+
+now, open command prompt or node.js command prompt and enter 'node app.js'
